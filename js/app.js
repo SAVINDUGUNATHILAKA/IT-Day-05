@@ -31,17 +31,31 @@ let y = "10";
 // console.log(x===y);
 
 
-let day = 4;
-switch (day) {
-    case 1:
-        console.log("Monday");
-        break;
-    case 2:
-        console.log("Tuesday");
-        break;
-    case 3:
-        console.log("Wednesday");
-        break;
-    default:
-        console.log("Invalid day");
+// let day = 4;
+// switch (day) {
+//     case 1:
+//         console.log("Monday");
+//         break;
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+//     default:
+//         console.log("Invalid day");
+// }
+
+
+
+// for (let i = 0; i <= 10; i++){
+//     console.log(i);
+// }
+
+let customer = {
+    name: "Saman",
+    age: 18,
+    isAfterAL: false,
+    salary: 7500
 }
+console.log(customer);
